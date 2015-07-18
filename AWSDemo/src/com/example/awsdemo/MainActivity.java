@@ -35,4 +35,14 @@ public class MainActivity extends Activity {
         }
         return super.onOptionsItemSelected(item);
     }
+
+	/* (non-Javadoc)
+	 * @see android.app.Activity#onPause()
+	 */
+	@Override
+	protected void onPause() {
+		// TODO Auto-generated method stub
+		super.onPause();
+	}
+    
 }
